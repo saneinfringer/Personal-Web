@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ravi Panchal</title>
+    <link rel="shortcut icon" href="apple-touch-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- cursor moving -->
+    <div class="cursor"></div>
+
+    <!-- home start -->
+    <div class="home-page-container" id="Home">
+
+        <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary" id="navbary">
+            <div class="container-fluid">
+                <a class="navbar-brand" id="ghost">💀</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">about</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                more
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#hobbies">hobbies</a></li>
+                                <li><a class="dropdown-item" href="#project-2">projects</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#skills">skills</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link enabled" aria-disabled="true" href="#contact">contact</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" id="btn" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <div class="name">
+            ravi panchal
+        </div>
+        <div class="portfolio-text">portfolio</div>
+        <div class="date-line">time : <span id="hrs">00</span><span> : </span><span id="min">00</span><span> :
+            </span><span id="sec">00</span></div>
+        <div class="profile-pic">
+        </div>
+        <div class="container-line">
+            <div class=" line-1"></div>
+            <div class=" line-2"></div>
+            <div class=" line-3"></div>
+            <div class=" line-4"></div>
+            <div class=" line-5"></div>
+            <div class=" line-6"></div>
+            <div class=" line-7"></div>
+        </div>
+    </div>
+    <!-- home end -->
+
+    <!-- about page start -->
+    <div class="about-page" id="about">
+        <div class="my-pic"></div>
+        <div class="info-container">
+            <div class="information">my name is</div>
+            <div class="information-name">ravi</div>
+            <div class="information-surname">panchal</div>
+            <div class="information-summery">I have been developing unique website designs for more than 1 years and
+                learning c/c++, python, javascript. I
+                am
+                constantly learning and developing. I know all the trends and know how to apply them appropriately
+                and
+                adequately. I have already made more than 4 websites and I will show you my best work.</div>
+        </div>
+    </div>
+    <!-- about page end -->
+
+    <!-- hobbies page start -->
+    <div class="hobbies-page" id="hobbies">
+        <div class="text-hobbie">hobbies</div>
+        <video autoplay loop muted plays-inline class="img-1">
+            <source src="assets/game.mp4" type="video/mp4">
+        </video>
+        <div class="game-text">challenge me : 6742915166771871745</div>
+        <div class="img-2"></div>
+        <div class="img-2-text">i did taekwondo for a long time but for my furthur studies i quit and it
+            still in my senses.</div>
+        <div class="img-3"></div>
+    </div>
+    <!-- hobbies page end -->
+
+    <!-- projects page start -->
+    <div class="wrapper-projects">
+        <div class="project-page-1">
+            <div class="project-img-1"></div>
+            <div class="project-text-1">A website for commercial, where there is just an incredible
+                products. Before your order is accepted, they will pick up and check your order. It is just a
+                portfolio website.</div>
+            <div class="project-text-1-2">Commercial</div>
+        </div>
+        <div class="project-page-2">
+            <div class="project-img-2"></div>
+            <div class="project-text-2">A website for Gym lovers. The main feature is that you will not find popular
+                Exercises in this guide. There are only "pearls" that Gymers discover and share on their pages.</div>
+            <div class="project-text-2-2">gymnasium</div>
+        </div>
+    </div>
+    <!-- project page start for phone -->
+    <div id="project">
+        <div class="project-img-1"></div>
+        <div class="project-text-1">A website for commercial, where there is just an incredible
+            products. Before your order is accepted, they will pick up and check your order. It is just a
+            portfolio website.</div>
+        <div class="project-text-1-2">Commercial</div>
+    </div>
+    <div id="project-2">
+        <div class="project-img-2"></div>
+        <div class="project-text-2">A website for Gym lovers. The main feature is that you will not find popular
+            Exercises in this guide. There are only "pearls" that Gymers discover and share on their pages.</div>
+        <div class="project-text-2-2">gymnasium</div>
+    </div>
+    <!-- project page end for phone -->
+
+    <!-- project page end -->
+
+    <!-- skills page start -->
+    <div class="skills-page" id="skills">
+        <div class="text-skills">skills</div>
+        <div class="img-skill-1"></div>
+        <div class="cpp-text">leetcode link: <a href="https://leetcode.com/Auto_Addict/">Auto_Addict</a></div>
+        <div class="img-skill-2"></div>
+        <div class="img-skill-2-text">I love bringing websites to life. Let's build something amazing together!..
+            Web development with a passion for pixels and performance.
+            Your friendly neighborhood web developer.</div>
+        <div class="img-skill-3"></div>
+        <div class="img-skill-3-text">
+            <h3>drawing</h3>
+        </div>
+    </div>
+    <!-- skills page end -->
+
+    <!-- contact page start -->
+    <div class="contact-page" id="contact">
+        <div id="lines"></div>
+        <div id="lines"></div>
+        <div id="lines"></div>
+        <div id="lines"></div>
+        <div id="lines"></div>
+        <div id="lines"></div>
+        <div id="lines"></div>
+        <div id="lines"></div>
+        <div id="lines"></div>
+        <div id="lines"></div>
+        <div class="text-container">are you <span>ready</span> to work
+            with me !
+        </div>
+    </div>
+    <div class="contact-page-2">
+        <div class="text-contact-container">
+            <div class="text-cont">calm</div>
+            <div class="text-cont">cooperation</div>
+            <div class="text-cont">effective</div>
+            <div class="text-cont">results</div>
+        </div>
+        <div class="nd-column">
+            <div class="my-name-contact">ravi panchal</div>
+            <div class="wht-ami-txt">your web developer</div>
+            <div class="cont-img" onmouseover="imgBig()" onmouseout="imgSmall()"></div>
+        </div>
+        <div class="footer-container">
+            <div class="insta"><a rel="noopener" target="_blank" href="https://www.instagram.com/v8_m5_cs?igsh=OTAzYndpYXlieXo="><i class="ri-instagram-line"></i></a></div>
+            <div class="email"><a rel="noopener" target="_blank" href="mailto:plravi095@gmail.com"><i class="ri-mail-line"></i></a></div>
+            <div class="linkdin"><a rel="noopener" target="_blank" href="https://www.linkedin.com/in/ravi-panchal-8b6a12252?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="ri-linkedin-line"></i></a></div></div>
+        <!-- footer-start -->
+        <div id="string">
+            <svg width="1000" height="180">
+                <path d="M 50 90 Q 500 90 990 90" stroke="white" fill="transparent" />
+            </svg>
+        </div>
+        <div class="border-line"></div>
+    </div>
+    <!-- footer-end -->
+    </div>
+    <!-- contact page end -->
+
+    <!-- form page start -->
+    <div class="form-container">
+        <form action="https://api.web3forms.com/submit" method="POST" class="left-side-form">
+            <div class="left-form-title">
+                <h1>get in touch</h1>
+                <hr>
+            </div>
+            <input type="hidden" name="access_key" value="c0502eb4-8a4c-4195-94ab-4b8c35acc46a">
+            <input type="text" name="name" placeholder="your name" class="form-inputs" required>
+            <input type="email" name="email" placeholder="your email" class="form-inputs" required>
+            <textarea name="message" placeholder="your feedback" class="form-inputs" required></textarea>
+            <button type="submit">submit</button>
+            <a href="https://drive.google.com/file/d/16oBd1QMCcyEVSVavg9DMYcENDyN-pGDN/view?usp=drivesdk" download=""
+                target="_blank" rel="no-referrer noopener">
+                <h3>download resume</h3>
+            </a>
+        </form>
+        <div class="right-side-form">
+            <img src="assets/illustration.png" alt="message icon">
+        </div>
+
+        <div class="border-line">made with ❤️</div>
+    </div>
+    </div>
+
+    <!-- scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
