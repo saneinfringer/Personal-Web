@@ -1,7 +1,7 @@
 
 # Personal Website Portfolio
 
-About I created this website for myself, but after being offered an internship at Unified Mentor, it became my project. I improved the website according to project requirements and learned and implemented many things to make it more user-friendly.
+I created this website for myself, but after being offered an internship at Unified Mentor, it became my project. I improved the website according to project requirements and learned and implemented many things to make it more user-friendly.
 
 ## Acknowledgements
 
