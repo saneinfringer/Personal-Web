@@ -38,7 +38,7 @@ By actively implementing your skills, you embark on a continuous cycle of learni
 
 ## Authors
 
-- [@Ravi](https://github.com/saneinfringer)
+
 
 ## Color Reference
 
@@ -50,7 +50,7 @@ By actively implementing your skills, you embark on a continuous cycle of learni
 
 ## Demo
 
-https://saneinfringer.github.io/Personal-Web/
+
 
 
 ## Lessons Learned
@@ -67,7 +67,6 @@ and many more!!
 ## Screenshots
 
 ![App Screenshot](screenshots/Screenshot%20(2).png)
-![App Screenshot](screenshots/Screenshot%20(3).png)
 
 
 ## Feedback
