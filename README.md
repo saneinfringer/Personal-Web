@@ -66,7 +66,6 @@ and many more!!
 
 ## Screenshots
 
-![App Screenshot](screenshots/Screenshot%20(1).png)
 ![App Screenshot](screenshots/Screenshot%20(2).png)
 ![App Screenshot](screenshots/Screenshot%20(3).png)
 
