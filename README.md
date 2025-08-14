@@ -38,7 +38,7 @@ By actively implementing your skills, you embark on a continuous cycle of learni
 
 ## Authors
 
-
+- [@Ravi](https://github.com/saneinfringer)
 
 ## Color Reference
 
